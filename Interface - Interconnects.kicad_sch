@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "72b795c9-a0aa-419c-b745-7565bf1ee903")
+	(paper "A3")
+	(title_block
+		(date "2026-06-28")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+)

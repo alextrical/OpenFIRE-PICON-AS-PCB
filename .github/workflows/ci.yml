@@ -1,0 +1,27 @@
+name: KiBot CI/CD
+
+on:
+  push:
+  #   paths:
+  #     - '*.kicad_sch'
+  #     - '*.kicad_pcb'
+  #     - '*.kibot.yaml'
+  #     - '.github/workflows/*.yml'
+  # pull_request:
+  #   paths:
+  #     - '*.kicad_sch'
+  #     - '*.kicad_pcb'
+  #     - '*.kibot.yaml'
+  #     - '.github/workflows/*.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  kibot:
+    uses: alextrical/kicad-pipeline-assets/.github/workflows/reusable-kibot.yml@main
+    with:
+      kibot_variant: DRAFT
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,492 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6ef65a4b-253b-4c68-9e0d-3ddc89995f68")
+	(paper "A3")
+	(title_block
+		(title "MCU - I/Os")
+		(date "2026-06-28")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 46.99 177.8)
+		(end 135.89 210.82)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0a9891a3-4ca0-4ea0-9b00-52e2baa96436")
+	)
+	(rectangle
+		(start 231.14 162.56)
+		(end 313.69 186.69)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "11328bc0-f5e6-47f4-bddf-740a2a507b90")
+	)
+	(rectangle
+		(start 46.99 44.45)
+		(end 135.89 172.72)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "496585ab-f6af-4cf5-a01e-53335e089ddb")
+	)
+	(rectangle
+		(start 140.97 130.81)
+		(end 226.06 210.82)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7389e7ac-d833-4e33-a7d1-bb5ff6546ea8")
+	)
+	(rectangle
+		(start 140.97 44.45)
+		(end 313.69 125.73)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "900f4475-e535-495e-ba41-79ad831c8886")
+	)
+	(rectangle
+		(start 231.14 215.9)
+		(end 313.69 245.11)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "96b791d6-1874-4f36-8665-6872a640ab4f")
+	)
+	(rectangle
+		(start 46.99 215.9)
+		(end 135.89 245.11)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a665128b-89b5-4310-b2f4-c91b3384983a")
+	)
+	(arc
+		(start 157.475 200.03)
+		(mid 156.5802 199.6563)
+		(end 156.205 198.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a97f9fa1-aa47-4f8a-8119-cd5ebe2a1960")
+	)
+	(rectangle
+		(start 231.14 191.77)
+		(end 313.69 210.82)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c0230e6e-17f3-49da-b3fe-87445c65fa5a")
+	)
+	(rectangle
+		(start 318.77 44.45)
+		(end 374.65 245.11)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "db1060d6-cd2c-4e21-ac27-d47e7acb2636")
+	)
+	(rectangle
+		(start 140.97 215.9)
+		(end 226.06 245.11)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e9cc00c8-03ae-403d-a29e-97d3d63d6da7")
+	)
+	(rectangle
+		(start 231.14 130.81)
+		(end 313.69 157.48)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ff5d25d0-2fd7-4ad6-a56d-cb74204eb27d")
+	)
+	(text_box "5Mbps FD-CAN Bus"
+		(exclude_from_sim no)
+		(at 232.41 146.05 0)
+		(size 80.01 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "04663648-49e1-4427-bd6f-8b6636f52431")
+	)
+	(text_box "User LEDs"
+		(exclude_from_sim no)
+		(at 48.26 233.68 0)
+		(size 86.36 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "0964b1e3-357e-4d73-8193-51aeeddf7df1")
+	)
+	(text_box "SWD (Debug) Port"
+		(exclude_from_sim no)
+		(at 48.26 199.39 0)
+		(size 86.36 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "0c6be274-0ced-42d4-ae55-b202d9d9b925")
+	)
+	(text_box "Connection to Gate Driver"
+		(exclude_from_sim no)
+		(at 142.24 199.39 0)
+		(size 82.55 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "30458881-ad61-44dd-9b3e-d2f633d032c3")
+	)
+	(text_box "Temperature Sense"
+		(exclude_from_sim no)
+		(at 233.045 175.895 0)
+		(size 78.74 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "3245bfe5-3f44-40c3-b275-8f9efa06c61d")
+	)
+	(text_box "Low-Side Fan Control"
+		(exclude_from_sim no)
+		(at 232.41 233.68 0)
+		(size 80.01 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "545960f9-c262-4a46-8181-ae21507fe81e")
+	)
+	(text_box "Board Version Selection"
+		(exclude_from_sim no)
+		(at 142.24 233.68 0)
+		(size 82.55 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "5f763b86-e64b-4907-ac27-96a34890729f")
+	)
+	(text_box "Microcontroller I/O Domain"
+		(exclude_from_sim no)
+		(at 48.26 161.29 0)
+		(size 86.36 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "ad738436-9bb5-401b-b8a5-9e518a308a17")
+	)
+	(text_box "Test Points"
+		(exclude_from_sim no)
+		(at 320.04 233.68 0)
+		(size 53.34 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "c82581fd-1c26-47de-ba29-ba17cb8b4f8b")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 162.56 25.4 0)
+		(size 96.52 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "e863fde8-19d6-40e7-ae9d-c7aea6494e8d")
+	)
+	(text_box "Auxiliary Ports"
+		(exclude_from_sim no)
+		(at 143.51 114.3 0)
+		(size 167.64 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "e97dd350-217c-4b85-b30c-07b4c9254d2d")
+	)
+	(text_box "Battery Voltage Sense"
+		(exclude_from_sim no)
+		(at 232.41 199.39 0)
+		(size 80.01 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "ee325801-61d9-4c29-8b59-aab60673cfc6")
+	)
+	(wire
+		(pts
+			(xy 248.92 198.12) (xy 284.48 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39abcffd-4677-4d07-ae8a-6effb29f3dbc")
+	)
+	(label "SENSE_VBAT"
+		(at 248.92 198.12 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc2c61ef-cfdd-4aa1-bb74-9277a065bb7d")
+	)
+	(hierarchical_label "SENSE_VBAT"
+		(shape input)
+		(at 284.48 198.12 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "231b4534-29b3-4d8d-aa8b-edbfcee1b683")
+	)
+)
